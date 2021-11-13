@@ -153,15 +153,17 @@
 @media screen and (max-width: 480px) {
 
 
+    
     .header{
         flex-direction: column;
         text-align: center;
         align-items: center;
 
     }
-        .menu{
-            flex-direction: column;
-        }
+     .menu {
+         display: block;
+         margin-top: 20px;
+     }
 
         .main{
             font-size: 25px;
@@ -173,6 +175,7 @@
 .contact{
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
         
 }
